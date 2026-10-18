@@ -1,0 +1,243 @@
+* {
+    box-sizing: border-box;
+}
+body 
+{
+    margin: 0;
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+nav 
+{
+    background-color: #7b3f08;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+.logo 
+{
+    padding: 8px;
+    border-radius: 5px;
+    height: 60px;
+}
+.nav-links 
+{
+    display: flex;
+}
+.nav-links a 
+{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+}
+#ordersLink 
+{
+    display: none;
+}
+.burger-area 
+{
+    text-align: center;
+    padding: 30px;
+    min-height: 420px;
+}
+.burger 
+{
+    width: 360px;
+    margin: auto;
+}
+.top-bun 
+{
+    background-color: #d66b27;
+    height: 80px;
+    border-radius: 100px 100px 0 0;
+    position: relative;
+}
+.seed 
+{
+    background-color: white;
+    width: 10px;
+    height: 17px;
+    border-radius: 80px;
+    position: absolute;
+}
+.seed1 
+{
+    top: 20px;
+    left: 60px;
+    transform: rotate(-45deg);
+}
+.seed2 
+{
+    top: 35px;
+    left: 120px;
+    transform: rotate(60deg);
+}
+.seed3 
+{
+    top: 25px;
+    left: 200px;
+    transform: rotate(-30deg);
+}
+.seed4 
+{
+    top: 40px;
+    left: 270px;
+    transform: rotate(20deg);
+}
+#ingredients 
+{
+    min-height: 65px;
+}
+
+#empty 
+{
+    background-color: white;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.lettuce 
+{
+    background-color: #70b85c;
+    height: 15px;
+    margin: 4px 0;
+    border-radius: 20px;
+}
+.bacon 
+{
+    background-color: #c0392b;
+    height: 15px;
+    margin: 4px 0;
+}
+.cheese 
+{
+    background-color: #f1c40f;
+    height: 18px;
+    margin: 4px -20px;
+    border-radius: 20px;
+}
+.meat 
+{
+    background-color: #6e2c00;
+    height: 30px;
+    margin: 4px 0;
+    border-radius: 20px;
+}
+.bottom-bun 
+{
+    background-color: #e77d32;
+    height: 52px;
+    border-radius: 0 0 30px 30px;
+}
+.controls 
+{
+    background-color: #d49228;
+    padding: 25px;
+    text-align: center;
+}
+.price 
+{
+    margin-bottom: 25px;
+}
+.ingredient 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 15px;
+}
+.ingredient b 
+{
+    width: 80px;
+    text-align: left;
+}
+button 
+{
+    border: none;
+    padding: 9px 25px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.ingredient button:first-of-type 
+{
+    background-color: #aaa;
+    color: white;
+}
+.ingredient button:last-of-type 
+{
+    background-color: #99611b;
+    color: white;
+}
+.order-button 
+{
+    background-color: #77720c;
+    color: white;
+    padding: 12px 30px;
+    margin-top: 15px;
+}
+#signupBox 
+{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+}
+.signup-content 
+{
+    background-color: white;
+    padding: 30px;
+    text-align: center;
+}
+.signup-content input 
+{
+    display: block;
+    padding: 10px;
+    margin: 10px;
+}
+#summaryBox {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+}
+.summary-content {
+    background-color: white;
+    padding: 30px;
+    width: 500px;
+}
+#ordersPage {
+    display: none;
+    text-align: center;
+    padding: 30px;
+}
+.order-box {
+    background-color: #f5f5f5;
+    padding: 20px;
+    margin: 20px auto;
+    width: 500px;
+    text-align: left;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    line-height: 1.8;
+}
+#checkoutPage {
+    display: none;
+    text-align: center;
+    padding: 40px;
+}
+.checkout-burger {
+    width: 360px;
+    margin: auto;
+}

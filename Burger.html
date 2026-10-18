@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burger Project</title>
+    <link rel="stylesheet" href="Burger.css">
+</head>
+
+<body>
+    <nav>
+        <div class="nav-bar">
+            <img class="logo" src="./burger.jpeg">
+        </div>
+        <div class="nav-links">
+            <a href="#" onclick="showBurger()">Burger Builder</a>
+            <a href="#" id="ordersLink" onclick="showOrders()">Orders</a>
+            <a href="#">Login</a>
+        </div>
+    </nav>
+    <div id="burgerPage">
+        <div class="burger-area">
+            <div class="burger">
+                <div class="top-bun">
+                    <span class="seed seed1"></span>
+                    <span class="seed seed2"></span>
+                    <span class="seed seed3"></span>
+                    <span class="seed seed4"></span>
+                </div>
+                <div id="ingredients">
+                    <p id="empty">
+                        No Ingredients Added
+                    </p>
+                </div>
+                <div class="bottom-bun"></div>
+            </div>
+        </div>
+        <div class="controls">
+            <p class="price">
+                Current price:
+                <b>
+                    $<span id="price">3.00</span>
+                </b>
+            </p>
+            <div class="ingredient">
+                <b>Lettuce</b>
+                <button onclick="removeLettuce()">
+                    Less
+                </button>
+                <button onclick="addLettuce()">
+                    More
+                </button>
+            </div>
+            <div class="ingredient">
+                <b>Bacon</b>
+                <button onclick="removeBacon()">
+                    Less
+                </button>
+                <button onclick="addBacon()">
+                    More
+                </button>
+            </div>
+            <div class="ingredient">
+                <b>Cheese</b>
+                <button onclick="removeCheese()">
+                    Less
+                </button>
+                <button onclick="addCheese()">
+                    More
+                </button>
+            </div>
+            <div class="ingredient">
+                <b>Meat</b>
+                <button onclick="removeMeat()">
+                    Less
+                </button>
+                <button onclick="addMeat()">
+                    More
+                </button>
+            </div>
+            <button class="order-button" onclick="openSignup()">
+                Sign Up To Order
+            </button>
+        </div>
+    </div>
+    <div id="signupBox">
+        <div class="signup-content">
+            <h2>
+                Sign Up To Order
+            </h2>
+            <input type="email" id="gmail" placeholder="Enter Gmail">
+            <input type="password" id="password" placeholder="Enter Password">
+            <br><br>
+            <button onclick="submitOrder()">
+                Submit
+            </button>
+            <button onclick="closeSignup()">
+                Continue
+            </button>
+        </div>
+    </div>
+
+    <div id="summaryBox">
+        <div class="summary-content">
+            <h2>
+                Your Order Summary:
+            </h2>
+            <p id="summaryText"></p>
+            <p>
+                Total Price:
+                $<span id="summaryPrice"></span>
+            </p>
+            <p>
+                Continue to Checkout?
+            </p>
+            <button onclick="cancelOrder()">
+                CANCEL
+            </button>
+            <button onclick="continueOrder()">
+                CONTINUE
+            </button>
+        </div>
+    </div>
+    <div id="ordersPage">
+        <h1>
+            Order History
+        </h1>
+        <div id="orderList">
+        </div>
+    </div>
+    <div id="checkoutPage">
+        <h1>
+            We hope it tastes well!
+        </h1>
+        <div class="checkout-burger">
+            <div class="top-bun">
+                <span class="seed seed1"></span>
+                <span class="seed seed2"></span>
+                <span class="seed seed3"></span>
+                <span class="seed seed4"></span>
+            </div>
+            <div id="checkoutIngredients">
+            </div>
+            <div class="bottom-bun"></div>
+        </div>
+        <br><br>
+        <button onclick="showOrders()">
+            Cancel
+        </button>
+        <button onclick="showBurger()">
+            Continue
+        </button>
+    </div>
+    <script src="Burger.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,181 @@
+/* .txt{
+    background-color:yellowgreen;
+    text-align: left;
+    text-decoration: double line-through 2px paleturquoise;
+    text-decoration: overline 2px palevioletred;
+    text-decoration: underline solid 2px peru;
+    text-transform: lowercase;
+    text-transform: inherit;
+    text-transform: unset;
+    text-shadow: 3px 2px 3px blue;
+    text-shadow:  -5px 7px 3px goldenrod; 
+    font-size: 50px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    font-style: oblique;
+    height: 200px;
+    width: 200px;
+} 
+ .content{
+        background-color: burlywood;
+        height: 200px;
+        width: 200px;
+    } 
+      .Romaisa{
+        background-color: aquamarine;
+        height: 200px;
+        width: 200px;
+     }
+.head{
+    background-color: cadetblue;
+    height: 50px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-style: italic;
+   text-shadow: 2px 2px 4px;
+}
+.one{
+    background-color: rosybrown;
+    height: 50px;
+}
+.two{
+    background-color: darkgoldenrod;
+    height: 50px;
+}
+.three{
+    background-color: greenyellow;
+    height: 50px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+button{
+    background-color: transparent;
+    border: none;
+} */
+/* div{
+    background-color: yellowgreen;
+    height: 200px;
+    width: 200px;
+    border: solid 2px green;
+    padding-top: 200px;
+    padding-right: 20px;
+    padding: 50px;
+    padding: 200px 20px 20px 200px;
+    box-sizing: border-box;
+    box-sizing: content-box;
+    margin: 250px;
+} */
+ /* span{
+    background-color: yellow;
+    height: 20px;
+    width: 50px;
+    border: solid 5px green;
+    padding: 5px;
+ }
+.Two{
+    background-color: green;
+    height: 20px;
+    width: 50px;
+    border: solid 5px red;
+    padding: 5px;
+ }
+ .Three{
+    background-color: pink;
+    height: 20px;
+    width: 50px;
+    border: solid 5px powderblue;
+    padding: 5px;
+ }
+ .Four{
+    background-color: rebeccapurple;
+    height: 20px;
+    width: 50px;
+    border: solid 2px brown;
+    padding: 5px;
+ }
+ a{
+    text-decoration: none;
+    color: black;
+ } */
+ /* ul{
+    list-style-type: none;
+ } */
+ /* li{
+    background-color: blue;
+ } */
+ /* body{
+   
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250vh;
+ }
+a:link{
+    color: blue;
+}
+a:visited{
+    color: brown;
+}
+a:active{
+    color: darkgreen;
+}
+ a:hover{
+    color: chartreuse;
+ }
+ li:first-child{
+    color: palevioletred;
+ }
+ li:nth-child(3n+1){
+    color: burlywood;
+ }
+ li:last-child{
+    color: blue;
+ }
+ input:focus{
+    outline: yellow;
+    border: 3px solid red;
+ }
+ input:checked{
+    width: 20px;
+    height: 20px;
+ } 
+ p::after{
+    content: "world";
+ }
+ p::before{
+    content: "world";
+ }
+li::marker{
+    color: blueviolet;
+}
+::selection{
+    background-color: pink;
+    color: grey;
+}
+pre::first-letter{
+    font-size: 50px;
+    color: darkgreen;
+}
+input::placeholder{
+    color: teal;
+} */
+.content{
+    font-size: 40px;
+    line-height: 50px;
+    word-spacing: 20px;
+    background-color: pink;
+}
+@media(100px <= width <= 480px){
+   .content{
+      background-color: antiquewhite;
+      width: 200px;
+      font-size: 40px;
+      line-height: 50px;
+      word-spacing: 20px;
+      width: 390px;
+}
+}

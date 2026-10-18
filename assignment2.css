@@ -1,0 +1,153 @@
+body{
+    background-image: url('./backgroundphoto.jpeg');
+    /* height: 90vh; */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 35px;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+}
+.name{
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.Div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.menu{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    gap: 20px;
+    font-weight: 500;
+    list-style-type: none;
+}
+.Talk{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    gap: 12px;
+    color: black;
+    font-size: 16px;
+    background: yellowgreen;
+    border: none;
+    border-radius: 50px;
+    padding: 5px 8px;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 60px 0px 160px;
+}
+hr{
+    width: 320px;
+    margin: 15px 0;
+    border: 1px solid gray;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 70px;
+}
+
+.content p{
+    color: white;
+    font-size: 18px;
+    margin: 0px; 
+}
+
+.content h1{
+    color: white;
+    font-size: 80px;
+    font-weight: bold;
+    width: 500px;
+    margin: 10px 0; 
+}
+
+.work{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding-top: 10px;
+    padding-left: 100px;
+}
+
+.work button{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    border: 2px solid white;
+    background: transparent;
+    color: white;
+    font-size: 18px;
+}
+
+.work span{
+    color: white;
+    font-size: 22px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.img{
+    width: 70px;
+    height: 50px;
+}
+.sidebar-left {
+    position: fixed;
+    left: 30px;               
+    top: 100px;               
+    bottom: 50px;             
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    align-items: center;
+    color: white;
+}
+.sidebar-icon i {
+    font-size: 20px;
+    color: gray;
+}
+.sidebar-phone {
+    font-size: 13px;
+    color: gray;
+    letter-spacing: 1.5px;
+    writing-mode: vertical-rl; 
+    transform: rotate();
+}
+.sidebar-scroll {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    font-size: 11px;
+    letter-spacing: 2px;
+    color: gray;
+}
+.sidebar-scroll span {
+    writing-mode: vertical-rl;
+    transform: rotate();
+}

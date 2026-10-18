@@ -1,0 +1,53 @@
+*{
+    font-family: Arial;
+}
+
+body{
+    background-color: lightgray;
+}
+.Main{
+    background-color: black;
+    text-align: center;
+    color: aliceblue;
+    text-decoration: double dashed 2px aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-size: 30px;
+}
+.Romaisa{
+    color: black;
+    text-transform: capitalize;
+}
+.Quote{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    text-decoration: double dashed 2px aliceblue;
+    font-weight: bold;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+button{
+    background-color: transparent;
+    border: none;
+}
+h3{
+    text-align: left;
+    background-color: aliceblue;
+}
+.Signature{
+text-align: right;
+ }
+ .photo{
+    width:150px;
+    height:150px;
+ }
+ .Projects{
+    background-color: coral;
+ }
+ .blockquote{
+    text-align: center;
+ }

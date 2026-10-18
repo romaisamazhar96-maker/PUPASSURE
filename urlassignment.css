@@ -1,0 +1,89 @@
+*{
+    color: aliceblue;
+}
+.navbar{
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+    border-radius: 20px;
+}
+.menu{
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.parent2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+button{
+    background-color: aqua;
+    border-radius: 20px;
+    border: none;
+    padding: 5px 10px;
+}
+.parent1{
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.Menu2{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    list-style-type: none;
+}
+.Div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.btn{
+    background-color: aqua;
+    border-radius: 20px;
+    border: none;
+    padding: 5px 10px;
+}
+a{
+    text-decoration: none;
+}
+.Parent3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 20px;
+    background-color: black;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.Menu3{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    gap: 12px;
+    list-style-type: none;
+}
+.bttn{
+    background-color: aqua;
+    border-radius: 20px;
+    border: none;
+    padding: 5px 10px;
+}

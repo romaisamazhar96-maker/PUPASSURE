@@ -1,0 +1,34 @@
+*{
+            background-color: lightblue;
+        }
+ .Main{
+    background-color: black;
+    text-align: center;
+    color: aliceblue;
+    text-decoration: double dashed 2px aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-size: 30px;
+ }    
+ .Romaisa{
+   text-transform: uppercase;
+ }   
+ span{
+       background-color: azure;
+        height: 25px;
+        font-style: italic;
+        font-size: 18px;
+ }
+ .Profile{
+       background-color: brown;
+ }
+ nav{
+       text-align: center;
+ }
+ .Learning{
+       text-align: center;
+       font-style: italic;
+ }
+ .Signature{
+text-align: right;
+ }

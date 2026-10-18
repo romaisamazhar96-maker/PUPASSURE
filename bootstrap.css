@@ -1,0 +1,17 @@
+.bg-color{
+    background-color: lightblue;
+}
+.navbar-brand{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
+    font-weight: 800;
+}
+.form-control{
+    width: 400px;
+}
+.collapse{
+    display: flex;
+    justify-content: space-between;
+}

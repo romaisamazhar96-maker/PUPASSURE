@@ -1,0 +1,260 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    margin: 0;
+    min-height: 100vh;
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.one{
+    display: flex;
+    background: white;
+    color: black;
+    border-radius: 40px;
+}
+span{
+    color: chocolate;
+}
+.Parent{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    list-style-type: none;
+}
+.menu1{
+    list-style-type: none;
+    gap: 20px;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.Main{
+    color: gray;
+}
+.main{
+    background-color:black;
+    color: white;
+    padding: 20px;
+    border-radius: 40px 0px 0px 40px;
+}
+.dashboard{
+  display: flex;
+  border-radius: 10px;
+}
+.sidebar {      
+  background-color: grey; 
+  color: white;  
+}
+.main-content {       
+  background-color: white;     
+}
+ul{
+    line-height: 40px;
+}
+.name{
+    border-bottom: solid 1px grey;
+    padding-bottom: 10px;
+}
+.Parent1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0px;
+}
+.Parent2{
+    display: flex;
+    gap: 12px;
+}
+.content {
+    padding: 10px;        
+    background-color: white;
+}
+a{
+    text-decoration: none;
+}
+.Export{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    gap: 12px;
+    color: blue;
+    font-size: 16px;
+    background: transparent;
+    border: 2px solid blue;
+    border-radius: 20px;
+    padding: 10px 10px;
+}
+.New{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    gap: 12px;
+    color: white;
+    font-size: 16px;
+    background-color: darkblue;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 10px;
+}
+.Box-One{
+    border-radius: 8px;
+    padding: 20px;           
+    background-color: aliceblue;
+    box-shadow: 2px 2px;
+}
+.Parent-BOx{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    gap: 10px;
+}
+.icon{
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 90px;
+}
+.shapes{
+    border: 1px solid black;
+    color: white;
+    border-radius: 60px;
+    background-color: black;
+    padding: 10px;
+}
+p{
+    color: gray;
+}
+.View-All{
+    display: flex;
+    gap: 12px;
+}
+.Head2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0px;
+}
+td{
+    background-color: aliceblue;
+    padding: 5px 45px;
+}
+th{
+    background-color: lightsteelblue;
+    padding: 20px 50px;
+}
+.Export1{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    gap: 12px;
+    color: white;
+    font-size: 16px;
+    background: lightskyblue;
+    border: 1px solid lightseagreen;
+    border-radius: 20px;
+    padding: 5px 5px;
+}
+.Export11{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    gap: 15px;
+    color: lightsalmon;
+    font-size: 16px;
+    background: lightyellow;
+    border: 1px solid yellow;
+    border-radius: 20px;
+    padding: 5px 5px ;
+    padding-right: 20px;
+}
+.Export-cancell{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    gap: 12px;
+    color: purple;
+    font-size: 16px;
+    background: pink;
+    border: 1px solid palevioletred;
+    border-radius: 20px;
+    padding: 5px 5px;
+}
+.shapes1{
+    border: none;
+    color: black;
+    border-radius: 60px;
+    background-color: white;
+    padding: 10px;
+}
+.top-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    border-radius: 10px;
+    border-bottom: solid 1px grey;
+}
+.recent{
+    background-color: aliceblue;
+    border-radius: 40px;
+}
+.search-box{
+    display: flex;
+    align-items: center;
+    background-color: aliceblue;
+    padding: 10px 15px;
+    border-radius: 25px;
+    width: 800px;
+}
+
+.search-box input{
+    margin-left: 10px;
+    width: 100px;
+    padding: 6px 10px;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+.profile-section{
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.TOP{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.user-info{
+    display: flex;
+    flex-direction: column;
+}
+.JD{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    gap: 12px;
+    color: red;
+    font-size: 16px;
+    background: lightpink;
+    border: 1px solid palevioletred;
+    border-radius: 20px;
+    padding: 5px 5px;
+}
+.navbar{
+    flex-direction: row;
+    gap: 15px;
+}

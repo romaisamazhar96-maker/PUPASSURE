@@ -1,0 +1,76 @@
+.Box1{
+    background-color: aqua;
+    height: 100px;
+    width: 100px;
+    border: solid 2px yellow;
+}
+.Box2{
+    background-color: aqua;
+    height: 100px;
+    width: 100px;
+    border: solid 2px yellow;
+}
+.Box3{
+    background-color: aqua;
+    height: 100px;
+    width: 100px;
+    border: solid 2px yellow;
+}
+.Box4{
+    background-color: aqua;
+    height: 100px;
+    width: 100px;
+    border: solid 2px yellow;
+}
+.Box5{
+    background-color: aqua;
+    height: 100px;
+    width: 100px;
+    border: solid 2px yellow;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+*{
+    color: aliceblue;
+}
+.navbar{
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+    border-radius: 20px;
+}
+.menu{
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.parent2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+button{
+    background-color: aqua;
+    border-radius: 20px;
+    border: none;
+    padding: 5px 10px;
+}
+.parent1{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    justify-content: space-between;
+}
